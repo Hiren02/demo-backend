@@ -1,0 +1,33 @@
+-------------------Model------------------------
+To create migration and model:-
+sequelize model:generate --name users --attributes name:string
+
+To run migrations:-
+sequelize db:migrate
+
+To undo all migrations:-
+sequelize db:migrate:undo:all
+
+To undo specific migration:-
+sequelize db:migrate:undo:all --to 20190501100413-create-error-logs
+
+Create new file:- 
+sequelize migration:create --name name_of_your_migration
+-----------------------------------------
+
+-------------------Seeder----------------------
+To create seeder:-
+sequelize seed:generate --name demo-user
+
+To seed all data:-
+sequelize db:seed:all
+
+To undo all seed data:-
+sequelize db:seed:undo:all
+
+To seed specific seed:-
+sequelize db:seed --seed name-of-seed-file
+
+To undo specific seed:-
+sequelize db:seed:undo --seed name-of-seed-file
+----------------------------------------- 

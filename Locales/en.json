@@ -1,0 +1,369 @@
+{
+	"STATUS": {
+		"1XX_INFORMATIONAL": "",
+		"CONTINUE": 100,
+		"SWITCHING_PROTOCOLS": 101,
+		"PROCESSING": 102,
+		"EARLY_HINTS": 103,
+		"2XX_SUCCESS": "",
+		"SUCCESS": "Success",
+		"CREATED": "Created Successfully",
+		"ACCEPTED": 202,
+		"NON_AUTHORITATIVE_INFORMATION": 203,
+		"NO_CONTENT": 204,
+		"RESET_CONTENT": 205,
+		"PARTIAL_CONTENT": 206,
+		"MULTI_STATUS": 207,
+		"ALREADY_REPORTED": 208,
+		"IM_USED": 226,
+		"3XX_REDIRECTION": "",
+		"MULTIPLE_CHOICES": 300,
+		"MOVED_PERMANENTLY": 301,
+		"FOUND": 302,
+		"SEE_OTHER": 303,
+		"NOT_MODIFIED": 304,
+		"USE_PROXY": 305,
+		"TEMPORARY_REDIRECT": 307,
+		"PERMANENT_REDIRECT": 308,
+		"4XX_CLIENT_ERROR": "",
+		"BAD_REQUEST": 400,
+		"UNAUTHORIZED": "You are not authorized to access this location.",
+		"PAYMENT_REQUIRED": 402,
+		"FORBIDDEN": "Forbidden Error !",
+		"NOT_FOUND": "Requested resource not found !",
+		"NOT_ALLOWED": "Method is not allowed !",
+		"NOT_ACCEPTABLE": 406,
+		"PROXY_AUTHENTICATION_REQUIRED": 407,
+		"REQUEST_TIMEOUT": 408,
+		"CONFLICT": "Provided information already exist!",
+		"GONE": 410,
+		"LENGTH_REQUIRED": 411,
+		"PRECONDITION_FAILED": "Please complete other steps first",
+		"PAYLOAD_TOO_LARGE": 413,
+		"URI_TOO_LONG": 414,
+		"UNSUPPORTED_MEDIA_TYPE": 415,
+		"RANGE_NOT_SATISFIABLE": 416,
+		"EXPECTATION_FAILED": 417,
+		"UNPROCESSABLE_ENTITY": 422,
+		"VALIDATION_ERROR": "Validation error !",
+		"NOT_VALID_DATA": "Data is understood, but is still not valid. !",
+		"LOCKED": 423,
+		"FAILED_DEPENDENCY": 424,
+		"UNORDERED_COLLECTION": 425,
+		"UPGRADE_REQUIRED": 426,
+		"PRECONDITION_REQUIRED": 428,
+		"TOO_MANY_REQUESTS": 429,
+		"REQUEST_HEADER_FIELDS_TOO_LARGE": 431,
+		"UNAVAILABLE_FOR_LEGAL_REASONS": 451,
+		"5XX_SERVER_ERROR": "",
+		"SERVER_ERROR": "Internal Server Error ! Please try again later",
+		"NOT_IMPLEMENTED": 501,
+		"BAD_GATEWAY": 502,
+		"SERVICE_UNAVAILABLE": 503,
+		"GATEWAY_TIMEOUT": 504,
+		"HTTP_VERSION_NOT_SUPPORTED": 505,
+		"VARIANT_ALSO_NEGOTIATES": 506,
+		"INSUFFICIENT_STORAGE": 507,
+		"LOOP_DETECTED": 508,
+		"BANDWIDTH_LIMIT_EXCEEDED": 509,
+		"NOT_EXTENDED": 510,
+		"NETWORK_AUTHENTICATION_REQUIRED": 511,
+		"UPDATED": "STATUS.UPDATED"
+	},
+	"SUCCESS_MESSAGES": {
+		"LOGIN": "Logged in successfully",
+		"SIGN_UP": "Your account has been created successfully",
+		"ADMIN_ADDED": "Admin added successfully",
+		"ADD_CART": "Product has been added in you cart",
+		"DELETE_CART_PRODUCT": "Product has been deleted from you cart",
+		"IMAGE_CREATED": "Image has been created successfully",
+		"IMAGE_VARIANT": "Image has been created successfully",
+		"ORDER_CREATED": "Order has been created successfully",
+		"PRODUCT_CREATED": "Product has been created successfully",
+		"ADDRESS_CREATED": "Address has been added successfully",
+		"USER_UPDATED": "User has been updated successfully"
+	},
+	"VALIDATION": {
+		"EXISTS": {
+			"USER": "User already exist!",
+			"IMAGE_CATEGORY": "Category already exists!",
+			"USER_SOCIAL": "User already registered by social account!",
+			"EMAIL": "Email is already registered, Please try logging in!",
+			"PHONE": "Phone is already registered, Please try logging in!",
+			"USER_NAME": "Username is already registered!",
+			"INTEREST_FOLLOW_COUNT": "You can add up to 20 interest."
+		},
+		"CONTACT_US": {
+			"SUBJECT": "Subject is required",
+			"MESSAGE": "Message is required"
+		},
+		"TYPE": {
+			"INVALID_STRING": "Provide string value",
+			"INVALID_NUMBER": "Provide number value",
+			"INVALID_BOOLEAN": "Provide boolean value",
+			"PRODUCT_TYPE_ID_REQUIRED": "Product type id is required"
+		},
+		"USER_ADDRESS": {
+			"ADDRESS_LINE_REQUIRED": "Address line is required",
+			"STREET_REQUIRED": "Street is required",
+			"HOUSE_NUMBER_REQUIRED": "House number is required",
+			"CITY_REQUIRED": "City is required",
+			"STATE_REQUIRED": "State is required",
+			"COUNTRY_REQUIRED": "Country is required",
+			"COUNTRY_LABEL_REQUIRED": "Country label is required",
+			"ZIP_CODE_REQUIRED": "Zip code is required",
+			"LATITUDE_REQUIRED": "Latitude is required",
+			"LONGITUDE_REQUIRED": "Longitude is required",
+			"ADDRESS_TYPE_REQUIRED": "Address type is required"
+		},
+		"CONFLICT": {
+			"EMAIL": "Email is already registered!",
+			"PHONE": "Phone is already registered!",
+			"USER": "User is already registered!"
+		},
+		"CHECK_USER_EXISTS": {
+			"SIGN_UP_TYPE_REQUIRED": "Sing-up type is required",
+			"SOCIAL_ID": "Social id required"
+		},
+		"PRODUCT": {
+			"PRODUCT_NAME_REQUIRED": "Product name is required",
+			"PRODUCT_DESCRIPTION_REQUIRED": "Product description is required",
+			"PRICE_REQUIRED": "Price is require",
+			"PRODUCT_TYPE_REQUIRED": "Product type is require",
+			"PRODUCT_STYLE_NAME_REQUIRED": "Product style name is required",
+			"PRODUCT_STYLE_DESCRIPTION": "Product style description is required",
+			"PRODUCT_TYPE_NAME_REQUIRED": "Product  name is required",
+			"PRODUCT_TYPE_DESCRIPTION": "Product  description is required",
+			"IS_WEAR_ABLE_REQUIRED": "Is wearable is required",
+			"ID": "Product ID is required",
+			"TITLE": "Product title is required",
+			"DESCRIPTION": "Product description is required",
+			"BLUE_PRINT_ID": "Blue print id is required",
+			"VALID_BLUE_PRINT_ID": "Blue print id must be number",
+			"VALID_PRINT_PROVIDER_ID": "Print provider id must be number",
+			"PRINT_PROVIDER_ID": "Print provider id is required",
+			"VARIANT_ID": "Variant id must be number",
+			"VARIANT_PRICE": "Variant price is required",
+			"VALID_PRICE": "Variant price must be numbers",
+			"VARIANT_ENABLE": "Variant enable is required",
+			"VARIANTS_IDS": "Variants IDs are required",
+			"POSITION": "Placeholder position is required",
+			"IMAGE_ID": "Image id is required",
+			"IMAGE_HEIGHT": "Image height must be number",
+			"IMAGE_WIDTH": "Image width must be number",
+			"IMAGE_X": "Image x must be number",
+			"IMAGE_Y": "Image y must be number",
+			"IMAGE_SCALE": "Image scale must be number",
+			"IMAGE_ANGLE": "Image angle must be number",
+			"QUANTITY": "Quantity must be number",
+			"PRICE": "Price must be number"
+		},
+		"ORDER": {
+			"EXTERNAL_ID": "External id is required",
+			"LABEL": "label is required",
+			"SHIPPING_METHOD": "Shipping method is required",
+			"IS_PRINTIFY_EXPRESS": "Is printify express is required",
+			"IS_ECONOMY_SHIPPING": "Is economy shipping is required",
+			"NOTIFICATION": "Notification is required",
+			"FIRST_NAME": "First name is required",
+			"LAST_NAME": "Last name is required",
+			"EMAIL": "Email is required",
+			"PHONE": "Phone number is required",
+			"COUNTRY": "Country is required",
+			"REGION": "Region is required",
+			"ADDRESS1": "Address1 is required",
+			"ADDRESS2": "Address2 is required",
+			"CITY": "City is required",
+			"ZIP": "Zip code is required",
+			"USER_ADDRESS_ID": "User address id is required",
+			"PRODUCT_ID": "Product id is required",
+			"VARIANT_ID": "Variant id must be number",
+			"QUANTITY": "Quantity must be number",
+			"PRINT_PROVIDER_ID": "Print provider id is required",
+			"BLUE_PRINT_ID": "Blue print id is required",
+			"CREATE": "While creating order something went wrong!",
+			"GET_ORDER": "While getting order something went wrong!"
+		},
+		"CART": {
+			"ID": "Cart id is required",
+			"CART_PRODUCT_ID": "Cart product id is required",
+			"TOTAL_ITEMS": "Total items is required and must be number",
+			"VARIANT_ID": "Variant id is required"
+		},
+		"CONTENT_TYPE": {
+			"NAME": "Content type name is required",
+			"PROVIDE_VALID_IMAGE_TYPE": "Provide valid image category",
+			"IMAGE_TYPE_REQUIRED": "Image type is required"
+		},
+		"NOT_FOUND": {
+			"USERS": "We can't find Users!",
+			"USER": "We can't find User!",
+			"EMAIL": "We can't find this email address!",
+			"ACCOUNT": "We can't find this account",
+			"PASSWORD": "We can't find password in this account, Please set password first!",
+			"VERIFICATION": "Your code is no longer valid, Please request again !",
+			"FOLLOWERS": "You must have at least 10 followers to request a verification",
+			"COLT": "Group was deleted",
+			"COLT_GROUP": "Group was deleted",
+			"CHAT": "We can't find chat!",
+			"HASHTAG": "Hashtag was deleted",
+			"DATA": "There is nothing here yet.",
+			"MEDIA": "There is no media.",
+			"AVATAR": "There is no avatar.",
+			"MISSING_DETAILS": "Provide required information",
+			"VARIANT": "We can't find variant!"
+		},
+		"PASSWORD": {
+			"REQUIRED": "Password is required",
+			"MISMATCH": "Provided password values do not match",
+			"LENGTH_VALIDATION": "Password must have at lest 8 characters",
+			"TOO_SIMPLE": "Password must contain uppercase lowercase and special characters and number",
+			"INCORRECT": "Either email is incorrect or password incorrect",
+			"SAME": "Old password and new password are same. Please create another password"
+		},
+		"FORGOT_PASSWORD": {
+			"NOT_REQUESTED": "You have't request for forgot password"
+		},
+		"CHANGE_PASSWORD": {
+			"CURRENT_PASSWORD_REQUIRED": "Current Password is required",
+			"RESET_PASSWORD_REQUIRED": "Password is required",
+			"CURRENT_PASSWORD_LENGTH_VALIDATION": "Current Password must have at lest 8 characters",
+			"NEW_PASSWORD_LENGTH_VALIDATION": "Password must have at lest 8 characters",
+			"TOO_SIMPLE": "Password must contain uppercase lowercase and special characters and number",
+			"INVALID_CURRENT_PASSWORD": "Current password is invalid"
+		},
+		"USER_VERIFIED": {
+			"VERIFIED": "Your phone number is already verified",
+			"NOT_VERIFIED": "Please verified your phone number",
+			"OTP_EXPIRED": "Your OTP has been expired",
+			"FAILED_ATTEMPTED": "OTP verification failed please try again"
+		},
+		"VERIFY_PHONE_NUMBER": {
+			"TOKEN_REQUIRED": "Token is required"
+		},
+		"FIRST_NAME": {
+			"REQUIRED": "First Name is required"
+		},
+		"LAST_NAME": {
+			"REQUIRED": "Last Name is required"
+		},
+		"EMAIL": {
+			"REQUIRED": "Email is required",
+			"NOT_VALID": "Email is invalid"
+		},
+		"COUNTRY_CODE": {
+			"REQUIRED": "Country Code is required",
+			"VALID": "Country code must have + symbol& don't contain space in between",
+			"ALREADY_EXISTS": "Country code already exists"
+		},
+		"NOT_PROVIDED": {
+			"LOGIN": "Provide email and password value in request",
+			"NOT_VALID": "Email is invalid"
+		},
+		"STATUS": {
+			"DEACTIVATED_ACCOUNT": "We can't find this account.",
+			"NOT_VERIFIED_ACCOUNT": "The account is not verified! Please verify account first.",
+			"INCORRECT_OTP": "Verification code is incorrect",
+			"OTP_EXPIRED": "Verification code was expired"
+		},
+		"PHONE_NUMBER": {
+			"REQUIRED": "Phone Number is required",
+			"VALID_LENGTH": "Phone Number must have 10 digits"
+		},
+		"VALIDATE_OTP": {
+			"REQUIRED": "OTP is required",
+			"VALID_LENGTH": "OTP must have 4 digits",
+			"OTP_NOT_REQUESTED": "You haven't requested for OTP"
+		},
+		"PARAMS": {
+			"ID_NOT_FOUND": "Provide id it can't be null",
+			"BLUE_PRINT_ID": "Blue print id is required",
+			"PRINT_PROVIDER_ID": "Print provider id is required"
+		},
+		"IMAGE_FORMAT": {
+			"INVALID": "Image format must be jpg, jpeg or png",
+			"PNG_REQUIRED": "Image format must be png",
+			"IMAGE_REQUIRED": "Image is required"
+		},
+		"BANNER": {
+			"ORDER": "Order value is required and it must be a number"
+		},
+		"CREATE_IMAGE": {
+			"PROMPT_REQUIRED": "Prompt is required in order to create image",
+			"SIZE": "Image size is required",
+			"SIZE_VALID": "Image size must be valid",
+			"INVALID_PROMPT_LENGTH": "Length of prompt must not exceed 1000 characters",
+			"INVALID_MODEL_VALUE": "Invalid model value",
+			"PROVIDE_VALID_STYLE": "Provide valid style option"
+		}
+	},
+	"RESPONSE": {
+		"RESEND_OTP": {
+			"SUCCESS": "OTP send to your registered  phone number",
+			"ADMIN_SUCCESS": "Password change link has been send to your email",
+			"ERROR": "Reset password link has been expired"
+		},
+		"OTP_VERIFICATION": {
+			"INVALID_OTP": "Provided OTP is invalid",
+			"OTP_EXPIRES": "OTP get expires",
+			"ALREADY_ACTIVE": "User already verified"
+		},
+		"PRODUCTS": {
+			"NO_PRODUCTS": "Can't find any product",
+			"PRODUCT_NOT_FOUND": "Can't find any products with given id",
+			"NOT_FOUND_PRODUCT_TYPE": "Can't find given product category",
+			"NOT_FOUND_PRODUCT_STYLE": "Can't find given product style",
+			"IMAGE_LIMIT_EXCEED": "Image limit exceeded",
+			"PRODUCT_TYPE_NOT_EXISTS": "No product category exists",
+			"PRODUCT_STYLE_NOT_EXCEED": "There is not product style exists",
+			"PRODUCT_TYPE_IMAGE_REQUIRED": "Category image is required"
+		},
+		"LOGIN_TYPE": {
+			"INVALID": "User exists with another login method",
+			"PASSWORD_SAME_WITH_PREVIOUS": "Cannot use previous password as new password"
+		},
+		"RESET_TOKEN": {
+			"INVALID_TOKEN_OR_ID": "Provide token or user id"
+		},
+		"PASSWORD_RESET_SUCCESS": "Password reset successfully",
+		"VERIFY_OTP_SUCCESS": "OTP verified successfully",
+		"PASSWORD_CHANGED_SUCCESS": "Password changed successfully",
+		"CONTENT_PAGE_NOT_FOUND": "Content page with given name is not found",
+		"OTP_VERIFICATION_SUCCESS": "OTP verification successful",
+		"LOGGED_OUT_SUCCESS": "Logged out successfully",
+		"USER_DELETED_SUCCESS": "User gets deleted successfully",
+		"COUNTRY_CODE_NOT_FOUND": "Can't find country code with this id",
+		"BANNER": {
+			"BANNER_IMAGES_LIST_NOT_FOUND": "Can't find any banner images",
+			"BANNER_IMAGE_NOT_FOUND": "Can't find any banner image",
+			"DELETE_SUCCESS": "Banner image deleted successful",
+			"INVALID_ORDER": "Given order number is already exists"
+		},
+		"PROFILE": {
+			"EMAIL_IS_EXISTS": "Email is already taken by other user",
+			"ADDRESS_NOT_FOUND": "Can't find address",
+			"ADDRESS_DELETED_SUCCESS": "User address deleted successfully",
+			"UPDATE_PROFILE": "Profile updated successfully"
+		},
+		"GALLERY": {
+			"IMAGE_NOT_EXISTS": "Can't find image with given id",
+			"IMAGE_DELETE_SUCCESS": "Image deleted successfully"
+		},
+		"PRODUCT": {
+			"PRODUCT_TYPE_IMAGE_REQUIRED": "RESPONSE.PRODUCT.PRODUCT_TYPE_IMAGE_REQUIRED"
+		}
+	},
+	"PROCESS": {
+		"SENT": {
+			"EMAIL": "We have sent an email to your account",
+			"VERIFICATION": "We have sent your verification to the admin.",
+			"EMAIL_VERIFICATION": "We have sent a verification link on your email, Please check and verify your email",
+			"MESSAGE": "Message sent successfully",
+			"GLOBAL_MESSAGE": "Global message sent successfully"
+		}
+	},
+	"": "",
+	"Image size must be less than 4mb": "Image size must be less than 4mb",
+	"Invalid value": "Invalid value",
+	"Category already exists": "Category already exists"
+}

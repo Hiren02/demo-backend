@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>welcome to OnePic</title>
+		<style>
+			body {
+				font-family: "Arial", sans-serif;
+				background-color: #f4f4f4;
+				margin: 0;
+				padding: 0;
+			}
+
+			.container {
+				max-width: 600px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #ffffff;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			}
+
+			h1 {
+				color: #333333;
+			}
+
+			p {
+				color: #555555;
+			}
+
+			.button {
+				display: inline-block;
+				padding: 10px 20px;
+				font-size: 16px;
+				text-align: center;
+				text-decoration: none;
+				color: #111111;
+				background-color: #007bff;
+				border-radius: 5px;
+			}
+
+			.footer {
+				margin-top: 20px;
+				color: #777777;
+			}
+			.imgContainer {
+				width: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container" style="border: 1px solid black">
+			<div class="imgContainer" style="text-align: center">
+				<img src="<%= baseUrl %>logo.webp" height="60px" width="150px" alt="website-logo" />
+			</div>
+			<h1>welcome to OnePic</h1>
+			<p>Dear user,</p>
+			<p>We received a request to reset your password. Click the button below to reset it:</p>
+			<a href="<%= resetLink %>" class="button">Reset Password</a>
+
+			<p>If you didn't request a password reset, please ignore this email.</p>
+			<div class="footer">
+				<p>Best regards,<br />One Pic</p>
+			</div>
+		</div>
+	</body>
+</html>
